@@ -59,3 +59,17 @@ print(len(tel))
 print(tel.keys())
 print(tel.values())
 print(tel.items())
+
+
+## Example 1: Student Data
+student = {
+    "name": "McCartney",
+    "firstname": "Paul",
+    "subject": "Music",
+    "musician": True,
+    "instruments": ["bass", "guitar", "piano"],
+    "bands": ["Beatles", "Wings"],
+}
+
+print(student)
+print(student["name"])
