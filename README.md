@@ -36,3 +36,16 @@ An individual value is accessed by putting the key in square brackets.
 It is possible to add, change and delete entries in the dictionary.
 
 Trying to access a nonexistent key leads to an error.
+
+To access the elements by index is not possible
+```
+print(tel[2])
+```
+
+## Adding key-value pairs to a dictionary
+
+A new key-value pair can easily be added to a dictionary using the following statement:
+
+```
+dictionary[key] = value
+```
