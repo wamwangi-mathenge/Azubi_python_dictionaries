@@ -48,3 +48,7 @@ print(new_phone)
 ## Deleting an element
 del tel["P. McCartney"]
 print(tel)
+
+## Iterating over a dictionary with a for loop
+for name in tel:
+    print(name, tel[name])
