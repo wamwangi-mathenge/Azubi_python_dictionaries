@@ -20,3 +20,14 @@ print(tel)
 tel["P. McCartney"] = 654321
 
 print(tel)
+
+## Dictionaries of mixed data types
+stupid_dict = {
+    123: "blablabla",
+    True: 123456,
+    "key": False,
+    (123, "abc"): 1000,
+    34.5: [0, 1, 2, 4, 5],
+}
+
+print(stupid_dict)
