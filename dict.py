@@ -52,3 +52,10 @@ print(tel)
 ## Iterating over a dictionary with a for loop
 for name in tel:
     print(name, tel[name])
+    
+
+## General functions and methods
+print(len(tel))
+print(tel.keys())
+print(tel.values())
+print(tel.items())
