@@ -131,3 +131,24 @@ NOTE: The data type of the output of the .keys() method is `dict_keys`.
 
 With the help of the function list(), this can be converted into a list.
 
+
+## Typical applications of dictionaries
+
+## Example 1: Student Data
+
+In the tel example, the key-value pairs were always name - telephone number. In the following example, the data for a student consisting of name, first-name, ID, email, city, etc is represented using a dictionary.
+
+## Example 2: Students and student IDs
+
+In the case of data that has a unique identifier (ID), this identifier can be used as the key of a dictionary. Consider the following example. Each student has a student-ID which is used as the key.
+
+```
+students_id = {
+    12345: "Paul McCartney",
+    23456: "John Lennon",
+    34567: "George Harrison",
+    45678: "Ringo Starr",
+}
+print(students)
+print(students[34567])
+```
