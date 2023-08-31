@@ -15,3 +15,8 @@ tel["Y. Ono"] = 546333
 tel["B. Epstein"] = 998777
 
 print(tel)
+
+## replacing the value for an existing key
+tel["P. McCartney"] = 654321
+
+print(tel)
