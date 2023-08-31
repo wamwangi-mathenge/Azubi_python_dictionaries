@@ -53,3 +53,21 @@ dictionary[key] = value
 ## Replacing the value for an existing array
 
 If a key already exists when it is assigned to a dictionary, the existing value is overwritten by the new value. This can be used to change or update entries in the dictionary. But you need to be careful not to overwrite the wrong entries in your dictionary.
+
+## More about keys and values
+
+The values in a dictionary can be of all data types including lists, tuples and dictionaries.
+
+The keys can be nearly of all data types. And data types can be mixed within one dictionary as demonstrated
+
+```
+stupid_dict = {
+    123: "blablabla",
+    True: 123456,
+    "key": False,
+    (123, "abc"): 1000,
+    34.5: [0, 1, 2, 4, 5],
+}
+
+print(stupid_dict)
+```
