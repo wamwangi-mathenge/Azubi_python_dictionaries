@@ -71,3 +71,23 @@ stupid_dict = {
 
 print(stupid_dict)
 ```
+
+## The key in a dictionary is immutable
+
+Unlike values which can be changed, keys must not be mutable in a dictionary. Therefore, a key can be an eg. `an integer, a string or a tuple`, but not `a list` since a list could be modified.
+
+Example:
+
+```
+new_phone = {
+    ("Paul", "McCartney"): 123456
+}
+print(new_phone)
+
+
+new_phone = {
+    ["Paul", "McCartney"]: 123456
+}
+
+print(new_phone)
+```
