@@ -91,3 +91,12 @@ new_phone = {
 
 print(new_phone)
 ```
+
+
+## Deleting an Element
+Elements can be deleted from a dictionary. This can be done using the keyword ```del .```
+
+```
+del tel["P. McCartney"]
+print(tel)
+```
