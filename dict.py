@@ -31,3 +31,16 @@ stupid_dict = {
 }
 
 print(stupid_dict)
+
+## The key in a dictionary is immutable
+new_phone = {
+    ("Paul", "McCartney"): 123456
+}
+print(new_phone)
+
+
+# new_phone = {
+#     ["Paul", "McCartney"]: 123456
+# }
+
+# print(new_phone)
