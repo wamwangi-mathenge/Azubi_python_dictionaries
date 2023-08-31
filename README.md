@@ -100,3 +100,12 @@ Elements can be deleted from a dictionary. This can be done using the keyword ``
 del tel["P. McCartney"]
 print(tel)
 ```
+
+## Iterating over a dictionary with a for loop
+
+Just like a list and a tuple, you can also iterate over a dictionary with the for loop. The syntax of this is as follows:
+
+```
+for name in tel:
+    print(name, tel[name])
+```
