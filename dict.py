@@ -44,3 +44,7 @@ print(new_phone)
 # }
 
 # print(new_phone)
+
+## Deleting an element
+del tel["P. McCartney"]
+print(tel)
