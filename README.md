@@ -49,3 +49,7 @@ A new key-value pair can easily be added to a dictionary using the following sta
 ```
 dictionary[key] = value
 ```
+
+## Replacing the value for an existing array
+
+If a key already exists when it is assigned to a dictionary, the existing value is overwritten by the new value. This can be used to change or update entries in the dictionary. But you need to be careful not to overwrite the wrong entries in your dictionary.
