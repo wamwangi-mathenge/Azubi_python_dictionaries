@@ -109,3 +109,25 @@ Just like a list and a tuple, you can also iterate over a dictionary with the fo
 for name in tel:
     print(name, tel[name])
 ```
+
+## Usage of functions and methods in dictionaries
+There are some functions and methods to handle dictionaries
+
+## General functions and methods
+
+```
+Function/Method         Return Value
+
+len()                   Number of key-value pairs in the dict
+
+.keys()                 All keys of a dictionary
+
+.values()               All values of a dictionary
+
+.items()                All key:value pairs as tuples
+```
+
+NOTE: The data type of the output of the .keys() method is `dict_keys`.
+
+With the help of the function list(), this can be converted into a list.
+
