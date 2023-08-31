@@ -73,3 +73,14 @@ student = {
 
 print(student)
 print(student["name"])
+
+## Example 2: Students and student IDs
+
+students_id = {
+    12345: "Paul McCartney",
+    23456: "John Lennon",
+    34567: "George Harrison",
+    45678: "Ringo Starr",
+}
+print(students_id)
+print(students_id[34567])
